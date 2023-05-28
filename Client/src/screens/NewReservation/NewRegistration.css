@@ -1,0 +1,38 @@
+.new-registration-page {
+  padding: 0 40px;
+}
+.form-field {
+  margin-top: 20px;
+}
+.input-tag-styling {
+  display: flex;
+  flex-direction: column;
+}
+.input-tag-styling label {
+  font-weight: 500;
+  // font-size: 186px;
+  margin-bottom: 16px;
+}
+.input-tag-styling input {
+  background: #fbfdff;
+  height: 25px;
+  border: 1px solid #9ea1a4;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.inline-form-fields {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+}
+.inline-form-fields div {
+  width: 30%;
+}
+
+.button-section {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,16 @@
+.button-styling {
+  background: linear-gradient(90deg, #2f9dcb 0%, #61b0d1 100%);
+  color: white;
+  height: 40px;
+  min-width: 150px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.not-selected-tab {
+  background: inherit;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}

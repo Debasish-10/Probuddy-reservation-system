@@ -1,4 +1,5 @@
 import express from 'express';
+import cors from 'cors';
 import mongoose from 'mongoose';
 import userRoutes from './routes/UserRoutes';
 
@@ -6,6 +7,9 @@ const app = express();
 
 // Middleware
 app.use(express.json());
+
+// Enable CORS middleware
+app.use(cors());
 
 // Routes
 app.use('/user-reservation', userRoutes);
